@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0315189B1C907590000539B2 /* MailCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031518991C907590000539B2 /* MailCore.framework */; };
+		0315189C1C907590000539B2 /* MailCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031518991C907590000539B2 /* MailCore.framework */; };
+		031518A01C907608000539B2 /* IMAPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315189F1C907608000539B2 /* IMAPConnection.swift */; };
+		031518A11C907608000539B2 /* IMAPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315189F1C907608000539B2 /* IMAPConnection.swift */; };
+		031518A21C907608000539B2 /* IMAPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315189F1C907608000539B2 /* IMAPConnection.swift */; };
+		031AF26A1C909965007DC52F /* MailCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031518991C907590000539B2 /* MailCore.framework */; };
+		031AF26C1C909965007DC52F /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031AF26B1C909965007DC52F /* BrightFutures.framework */; };
+		031AF2711C909DCC007DC52F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031AF2701C909DCC007DC52F /* Constants.swift */; };
+		031AF2731C90A9D7007DC52F /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031AF2721C90A9D7007DC52F /* Bond.framework */; };
+		031AF2781C90AF1D007DC52F /* OperatorSSm-Book-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 031AF2761C90AF1D007DC52F /* OperatorSSm-Book-Pro.otf */; };
+		031AF2791C90AF1D007DC52F /* OperatorSSm-Light-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 031AF2771C90AF1D007DC52F /* OperatorSSm-Light-Pro.otf */; };
+		031AF27C1C90BA2F007DC52F /* MessagesListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031AF27B1C90BA2F007DC52F /* MessagesListViewCell.swift */; };
 		0382A2F01C9070C30073D1CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0382A2EF1C9070C30073D1CB /* AppDelegate.swift */; };
 		0382A2F21C9070C30073D1CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0382A2F11C9070C30073D1CB /* ViewController.swift */; };
 		0382A2F51C9070C30073D1CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0382A2F31C9070C30073D1CB /* Main.storyboard */; };
@@ -34,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031518991C907590000539B2 /* MailCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MailCore.framework; path = Carthage/Build/iOS/MailCore.framework; sourceTree = "<group>"; };
+		0315189E1C9075AA000539B2 /* Hush-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hush-Bridging-Header.h"; sourceTree = "<group>"; };
+		0315189F1C907608000539B2 /* IMAPConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMAPConnection.swift; sourceTree = "<group>"; };
+		031AF26B1C909965007DC52F /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/iOS/BrightFutures.framework; sourceTree = "<group>"; };
+		031AF2701C909DCC007DC52F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		031AF2721C90A9D7007DC52F /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = "<group>"; };
+		031AF2761C90AF1D007DC52F /* OperatorSSm-Book-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OperatorSSm-Book-Pro.otf"; sourceTree = "<group>"; };
+		031AF2771C90AF1D007DC52F /* OperatorSSm-Light-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OperatorSSm-Light-Pro.otf"; sourceTree = "<group>"; };
+		031AF27B1C90BA2F007DC52F /* MessagesListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesListViewCell.swift; sourceTree = "<group>"; };
 		0382A2EC1C9070C30073D1CB /* Hush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0382A2EF1C9070C30073D1CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0382A2F11C9070C30073D1CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031AF26C1C909965007DC52F /* BrightFutures.framework in Frameworks */,
+				031AF26A1C909965007DC52F /* MailCore.framework in Frameworks */,
+				031AF2731C90A9D7007DC52F /* Bond.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0315189B1C907590000539B2 /* MailCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +93,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0315189C1C907590000539B2 /* MailCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031518981C90757D000539B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				031AF2721C90A9D7007DC52F /* Bond.framework */,
+				031AF26B1C909965007DC52F /* BrightFutures.framework */,
+				031518991C907590000539B2 /* MailCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0315189D1C90759C000539B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0315189F1C907608000539B2 /* IMAPConnection.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		031AF2651C908D88007DC52F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0382A2FB1C9070C30073D1CB /* Info.plist */,
+				0315189E1C9075AA000539B2 /* Hush-Bridging-Header.h */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		031AF26F1C909DBD007DC52F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				031AF2701C909DCC007DC52F /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		031AF2741C90AF10007DC52F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				031AF2751C90AF15007DC52F /* Fonts */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		031AF2751C90AF15007DC52F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				031AF2761C90AF1D007DC52F /* OperatorSSm-Book-Pro.otf */,
+				031AF2771C90AF1D007DC52F /* OperatorSSm-Light-Pro.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		031AF27A1C90BA1C007DC52F /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				0382A2F11C9070C30073D1CB /* ViewController.swift */,
+				031AF27B1C90BA2F007DC52F /* MessagesListViewCell.swift */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
 		0382A2E31C9070C30073D1CB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +168,7 @@
 				0382A3031C9070C30073D1CB /* HushTests */,
 				0382A30E1C9070C30073D1CB /* HushUITests */,
 				0382A2ED1C9070C30073D1CB /* Products */,
+				031518981C90757D000539B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +185,15 @@
 		0382A2EE1C9070C30073D1CB /* Hush */ = {
 			isa = PBXGroup;
 			children = (
+				031AF2741C90AF10007DC52F /* Assets */,
+				031AF26F1C909DBD007DC52F /* Constants */,
+				0315189D1C90759C000539B2 /* Classes */,
 				0382A2EF1C9070C30073D1CB /* AppDelegate.swift */,
-				0382A2F11C9070C30073D1CB /* ViewController.swift */,
+				031AF27A1C90BA1C007DC52F /* Messages */,
 				0382A2F31C9070C30073D1CB /* Main.storyboard */,
 				0382A2F61C9070C30073D1CB /* Assets.xcassets */,
 				0382A2F81C9070C30073D1CB /* LaunchScreen.storyboard */,
-				0382A2FB1C9070C30073D1CB /* Info.plist */,
+				031AF2651C908D88007DC52F /* Support */,
 			);
 			path = Hush;
 			sourceTree = "<group>";
@@ -135,6 +226,7 @@
 				0382A2E81C9070C30073D1CB /* Sources */,
 				0382A2E91C9070C30073D1CB /* Frameworks */,
 				0382A2EA1C9070C30073D1CB /* Resources */,
+				031AF2691C909928007DC52F /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +285,7 @@
 				TargetAttributes = {
 					0382A2EB1C9070C30073D1CB = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2V5KTH95VW;
 					};
 					0382A2FF1C9070C30073D1CB = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -229,9 +322,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031AF2781C90AF1D007DC52F /* OperatorSSm-Book-Pro.otf in Resources */,
 				0382A2FA1C9070C30073D1CB /* LaunchScreen.storyboard in Resources */,
 				0382A2F71C9070C30073D1CB /* Assets.xcassets in Resources */,
 				0382A2F51C9070C30073D1CB /* Main.storyboard in Resources */,
+				031AF2791C90AF1D007DC52F /* OperatorSSm-Light-Pro.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +346,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		031AF2691C909928007DC52F /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/MailCore.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/BrightFutures.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Bond.framework",
+			);
+			name = "Copy Carthage Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0382A2E81C9070C30073D1CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0382A2F21C9070C30073D1CB /* ViewController.swift in Sources */,
+				031AF27C1C90BA2F007DC52F /* MessagesListViewCell.swift in Sources */,
 				0382A2F01C9070C30073D1CB /* AppDelegate.swift in Sources */,
+				031518A01C907608000539B2 /* IMAPConnection.swift in Sources */,
+				031AF2711C909DCC007DC52F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031518A11C907608000539B2 /* IMAPConnection.swift in Sources */,
 				0382A3051C9070C30073D1CB /* HushTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031518A21C907608000539B2 /* IMAPConnection.swift in Sources */,
 				0382A3101C9070C30073D1CB /* HushUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,10 +518,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Hush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.Hush;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.hush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -408,10 +535,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Hush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.Hush;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.hush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -419,6 +552,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HushTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.HushTests;
@@ -431,6 +568,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HushTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.HushTests;
@@ -442,6 +583,10 @@
 		0382A31B1C9070C30073D1CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HushUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.HushUITests;
@@ -454,6 +599,10 @@
 		0382A31C1C9070C30073D1CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HushUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.HushUITests;
@@ -482,6 +631,7 @@
 				0382A3161C9070C30073D1CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0382A3171C9070C30073D1CB /* Build configuration list for PBXNativeTarget "HushTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +640,7 @@
 				0382A3191C9070C30073D1CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0382A31A1C9070C30073D1CB /* Build configuration list for PBXNativeTarget "HushUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +649,7 @@
 				0382A31C1C9070C30073D1CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

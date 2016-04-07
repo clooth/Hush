@@ -1,0 +1,3 @@
+github "clooth/mailcore2" "master"
+github "Thomvis/BrightFutures"
+github "SwiftBond/Bond"

@@ -1,0 +1,4 @@
+github "SwiftBond/Bond" "v4.3.0"
+github "antitypical/Result" "1.0.2"
+github "clooth/mailcore2" "b7e9191762e71a705fb49834a7e8041179e985e7"
+github "Thomvis/BrightFutures" "v3.3.0"
